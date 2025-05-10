@@ -23,4 +23,3 @@ admin.add_view(UsersAdmin)
 admin.add_view(GroupsAdmin)
 admin.add_view(PostsAdmin)
 admin.add_view(CommentsAdmin)
-# 

@@ -106,4 +106,4 @@ class BaseDAO:
             post = await session.get(cls.model, model_id)
             await session.delete(post)
             await session.commit()
-# 
+

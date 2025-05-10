@@ -64,4 +64,3 @@ class Comment(Base):
 
 class CommentDAO(BaseDAO):
     model = Comment
-# 

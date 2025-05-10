@@ -37,4 +37,3 @@ class SCreateTokenResponse(BaseModel):
 class SRefreshTokenResponse(BaseModel):
     access: str
     token_type: str
-# 

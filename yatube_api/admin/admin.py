@@ -65,4 +65,4 @@ class CommentsAdmin(ModelView, model=Comment):
     name = 'Comment'
     name_plural = 'Comments'
     icon = 'fa-regular fa-comments'
-#
+

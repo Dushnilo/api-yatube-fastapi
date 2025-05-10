@@ -30,4 +30,3 @@ async def read_group_by_id(group_id: int):
     if group is None:
         raise HTTPException(status_code=404)
     return group
-# 

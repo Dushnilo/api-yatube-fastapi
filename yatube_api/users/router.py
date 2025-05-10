@@ -171,4 +171,3 @@ async def register_user(user_data: SUserRegister):
 async def read_user_me(current_user: dict = Depends(get_token_payload)):
     user = await UsersDAO.find_one_or_none(email=current_user['sub'])
     return user_answer(user)
-# 

@@ -123,4 +123,4 @@ async def delete_comment(post_id: int, id: int,
                          current_user: dict = Depends(validate_access_token)):
     await get_comment_or_404(post_id=post_id, id=id, current_user=current_user)
     await CommentDAO.delete(model_id=id)
-#
+

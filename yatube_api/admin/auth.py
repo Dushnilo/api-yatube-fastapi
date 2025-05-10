@@ -40,4 +40,4 @@ class AdminAuth(AuthenticationBackend):
 
 
 authentication_backend = AdminAuth(secret_key=settings.SECRET_KEY)
-# 
+

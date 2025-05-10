@@ -23,4 +23,3 @@ class SPostsResponse(BaseModel):
     next: Optional[str] = None
     previous: Optional[str] = None
     results: list[SPostResponse]
-# 

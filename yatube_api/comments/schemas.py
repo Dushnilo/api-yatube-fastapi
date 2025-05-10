@@ -11,4 +11,3 @@ class SCommentResponse(BaseModel):
 
     class Config:
         from_attributes = True
-# 

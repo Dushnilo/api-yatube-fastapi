@@ -165,4 +165,3 @@ async def delete_post(post_id: int,
                       current_user: dict = Depends(validate_access_token)):
     await get_post_or_404(post_id, current_user)
     await PostDAO.delete(model_id=post_id)
-# 

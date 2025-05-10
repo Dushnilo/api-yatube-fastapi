@@ -53,4 +53,3 @@ class Follow(Base):
 
 class FollowDAO(BaseDAO):
     model = Follow
-# 

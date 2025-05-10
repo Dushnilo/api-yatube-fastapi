@@ -72,4 +72,3 @@ async def validate_access_token(
             detail='Invalid token type. Expected access token.'
         )
     return current_user
-# 
